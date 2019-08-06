@@ -39,5 +39,6 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-
+  Family = Array ["Kornell", "Mya", "Gma","Papa", "GiGi"]
+  puts Family [0] = "Cornell"
 end
