@@ -14,7 +14,8 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  
+   Family = Array ["Kornell", "Mya", "Gma","Papa", "GiGi"]
+   
 end
 
 def remove_element_from_end_of_array(array)
@@ -33,11 +34,13 @@ Family = Array ["Kornell", "Mya", "Gma","Papa", "GiGi"]
 end
 
 def retrieve_first_element_from_array(array)
-  
+   Family = Array ["Kornell", "Mya", "Gma","Papa", "GiGi"]
+   print Family [1];
 end
 
 def retrieve_last_element_from_array(array)
-  print Family [1];
+   Family = Array ["Kornell", "Mya", "Gma","Papa", "GiGi"]
+   print Family [2];
 end
 
 def update_element_from_index(array, index_number, element)
