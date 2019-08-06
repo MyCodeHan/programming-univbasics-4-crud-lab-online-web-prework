@@ -9,7 +9,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   Family = Array ["Kornell", "Mya", "Gma","Papa", "GiGi"]
-  puts Family [0]
+  puts Family
   
 end
 
@@ -26,7 +26,8 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+Family = Array ["Kornell", "Mya", "Gma","Papa", "GiGi"]
+  puts Family [0]
 end
 
 def retrieve_first_element_from_array(array)
