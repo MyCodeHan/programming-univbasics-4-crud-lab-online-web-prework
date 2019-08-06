@@ -3,11 +3,13 @@ def create_an_empty_array
 end
 
 def create_an_array
-  kids = Array ["Kornell", "Mya"]
-  puts kids
+  Family = Array ["Kornell", "Mya", "Gma","Papa", "GiGi"]
+  puts Family
 end
 
 def add_element_to_end_of_array(array, element)
+  Family = Array ["Kornell", "Mya", "Gma","Papa", "GiGi"]
+  puts Family [0]
   
 end
 
